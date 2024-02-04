@@ -86,7 +86,31 @@
 }
 .img{
     margin: 10px;
-    width: 40%;
+    width: 285px;
+    border-radius: 5px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+}
+.d-btn img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid transparent;
+    margin: 10px 0px;
+}
+
+@media screen and (max-width: 760px){
+    .container .content{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: azure;
+        flex-direction: column;
+        position: relative;
+    }
+    .generate-form{
+        width: 100%;
+        height: 100vh;
+    }
 }
